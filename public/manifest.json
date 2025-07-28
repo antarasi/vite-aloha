@@ -4,7 +4,8 @@
     "version": "1.0.0",
     "description": "Aloha Sample Plugin",
     "author": "antarasi",
-    "icon": "icon.svg",
+    "icon": "dist/icon.svg",
+    "main": "dist/index.esm.js",
     "tools": [
         {
             "name": "tellTime",
