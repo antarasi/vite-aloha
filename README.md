@@ -117,6 +117,7 @@ The `public/manifest.json` file describe the plugin capabilities to Aloha Deskto
 {
   "manifestVersion": 1,
   "name": "Your Plugin Name",
+  "version": "1.0.0",
   "description": "Description of what your plugin does",
   "author": "Your Name",
   "icon": "icon.svg",
