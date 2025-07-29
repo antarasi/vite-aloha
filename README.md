@@ -142,6 +142,29 @@ The `public/manifest.json` file describe the plugin capabilities to Aloha Deskto
 }
 ```
 
+## Publishing
+
+### Automatic
+
+The template includes a GitHub release workflow that is triggered on new `v#.#.#` tags.
+
+The workflow is creating a `plugin.tgz` artifact with `dist` folder and adding it to a new release.
+
+### Manual
+
+```bash
+# Test your code
+npm run test 
+
+# build code bundle
+npm run build
+
+# pack dist folder into tarball
+tar czf plugin.tgz dist
+```
+
+Finally publish the `plugin.tgz` on a new GitHub release.
+
 ## License
 
 MIT
