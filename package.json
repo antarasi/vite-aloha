@@ -12,7 +12,7 @@
     "dist"
   ],
   "scripts": {
-    "prebuild": "aloha version package.json public/manifest.json",
+    "prebuild": "aloha version package.json manifest.json",
     "build": "tsc && vite build",
     "test": "tsx --test",
     "test:watch": "tsx --watch --test"
