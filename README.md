@@ -159,8 +159,8 @@ npm run test
 # build code bundle
 npm run build
 
-# pack dist folder into tarball
-tar czf plugin.tgz dist
+# pack dist folder and manifest.json into tarball
+tar czf plugin.tgz dist manifest.json
 ```
 
 Finally publish the `plugin.tgz` on a new GitHub release.
