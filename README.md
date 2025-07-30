@@ -160,6 +160,8 @@ The template includes a GitHub release workflow that is triggered on new `v#.#.#
 
 The workflow is creating a new release with `manifest.json` and `plugin.tgz` (containing the `dist` folder).
 
+> **Note:** To make the workflow automatically publish releases of your plugin, go to your repository Settings > Actions > General > Workflow permissions > Select: Read and write permissions
+
 ### Manual
 
 ```bash
